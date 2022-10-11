@@ -348,11 +348,17 @@ input {
     .gh {
         display: inline;
     }
+
+    body {
+        overflow-x: hidden;
+    }
     
     .section1 {
         flex-direction: column-reverse;
         height: max-content;
+        overflow-x: hidden;
         padding-bottom: 34px;
+        width: 100vw;
     }
 
     .section1-right {
@@ -362,6 +368,7 @@ input {
     .section1-left {
         margin-top: -50px;
         width: 100vw;
+        z-index: 2;
         padding-left: 30px;
     }
 
@@ -437,6 +444,7 @@ input {
         margin-top: 60px;
         margin-bottom: 30px;
         display: flex;
+        overflow-x: hidden;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -447,7 +455,7 @@ input {
         height: 220px;
         border-radius: 8px;
         background-color: #6464ff;
-        margin: 12px 30px;
+        margin: 0px;
         margin-bottom: 40px;
         padding: 16px;
         position: relative;
@@ -458,7 +466,7 @@ input {
         border-radius: 10px;
         position: absolute;
         content: '';
-        left: -20px;
+        left: 20px;
         top: -20px;
         width: 200px;
         height: 190px;
@@ -495,9 +503,10 @@ input {
     }
 
     .section3 {
-        width: 100vw;
+        width: 90vw;
         margin-bottom: 80px;
         margin-left: 14px;
+        overflow-x: hidden;
         margin-right: 0px;
     }
 

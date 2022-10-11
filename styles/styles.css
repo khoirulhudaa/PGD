@@ -371,6 +371,7 @@ input {
         margin-top: -50px;
         width: 100vw;
         padding-left: 30px;
+        z-index: 2;
     }
 
     .section1-left h1 {
