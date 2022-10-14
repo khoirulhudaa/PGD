@@ -69,7 +69,11 @@
         display: flex;
         overflow: hidden;
         flex-wrap: wrap;
-        margin: -2.5px; }
+        margin: -2.5px; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw;
+      }
         .flexbin:after {
           content: '';
           flex-grow: 999999999;
