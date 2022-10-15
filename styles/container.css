@@ -434,6 +434,52 @@ input {
     margin-bottom: 20px;
 }
 
+.wraps3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 20px;
+}
+
+.wraps3 .status {
+    display: block;
+    text-align: center;
+    width: 24%;
+    align-items: center;
+}
+
+.list {
+    display: block;
+}
+
+.btn-pick {
+    background-color: rgb(228, 228, 228);
+    color: rgb(122, 122, 122);
+    border-radius: 4px;
+    text-align: center;
+    left: 26px;
+    position: relative;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.status .cargo-p {
+    font-size: 14px;
+}
+
+.btn-pick p {
+    position: relative;
+    top: 8px;
+}
+
 .wraps2 .status {
     display: flex;
     width: 50%;
@@ -508,6 +554,37 @@ input {
 }
 
 @media screen and (max-width: 720px) {
+
+    .wraps3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    .btn-pick {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        position: relative;
+    }
+
+    .cargo-p {
+        width: 100%;
+    }
+
+    .wraps3 .status {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 6px;
+        align-items: center;
+    }
     
     .tabs {
         width: 90vw;
