@@ -249,6 +249,60 @@ input {
     font-weight: bold;
 }
 
+.tabs {
+    width: 30vw;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tabb {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tabb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+}
+
+.tab1 {
+    border-radius: 4px 0 0 4px;
+}
+
+.tab2 {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.tabActive {
+    background-color: rgb(108, 108, 255);
+    color: white;
+}
+
+.tabb:Hover {
+    transition: 0.3s;
+    filter: brightness(90%);
+}
+
 .button-resi {
     width: max-content;
     text-align: center;
